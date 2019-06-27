@@ -10,15 +10,15 @@
 <body>
   <header></header>
   <main>
-    <div class="vista-login">
+    <div class="vista-login hide" id="vista1">
       <div class="login-box">
         <form>
           <section class="box">
             <img src="img/pokemon.png" alt="" class="image">
-            <label for="username" class="items-login">Correo electronico</label>
-            <input type="text" class="items-login" name="input-mail" id="">
+            <label for="username" class="items-login" >Correo electronico</label>
+            <input type="text" class="items-login"  id="name">
             <label for="password" class="items-login">Contraseña</label>
-            <input type="text" class="items-login" name="password" id="">
+            <input type="password" class="items-login" id="Password">
             <a href="#" class="items-login">¿Olvidaste tu contraseña?</a>
             <input type="submit" class="items-login" value="Ingresa" id="btn-submit-login">
             <p>¿No tienes cuenta?</p>
@@ -28,7 +28,13 @@
       </div>
     </div>
 
+    <div class="hide" id="pokemon-vista">
+        <p>Holaaaaaaaaaaaa</p>   
+    </div>
+
   </main>
+
+    
   <footer></footer>
   <script src="./data/pokemon/pokemon.js"></script>
   <script src="data.js"></script>
