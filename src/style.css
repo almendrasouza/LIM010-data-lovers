@@ -1,0 +1,29 @@
+.vista-login{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 100vh;
+    align-items: center;
+}
+
+.login-box{
+  background-color:yellow;
+  width:460px;
+  height:516px;
+  display:flex;
+  justify-content: center;
+  
+}
+.image{
+  width: 199px;
+  height: 58px;
+  display:block;
+  
+}
+.items-login{
+  display: block;
+}
+.blacks-words{
+  font-weight: bold;
+}

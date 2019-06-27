@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <!-- <script src="./data/lol/lol.js"></script> -->
-    <!-- <script src="./data/pokemon/pokemon.js"></script> -->
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <script src="data.js"></script>
-    <script src="main.js"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Pokemón Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <div class="vista-login">
+      <div class="login-box">
+        <form>
+          <section class="box">
+            <img src="img/pokemon.png" alt="" class="image">
+            <label for="username" class="items-login">Correo electronico</label>
+            <input type="text" class="items-login" name="input-mail" id="">
+            <label for="password" class="items-login">Contraseña</label>
+            <input type="text" class="items-login" name="password" id="">
+            <a href="#" class="items-login">¿Olvidaste tu contraseña?</a>
+            <input type="submit" class="items-login" value="Ingresa" id="btn-submit-login">
+            <p>¿No tienes cuenta?</p>
+            <a href="#" class="blacks-words">Registrate</a>
+          </section>
+        </form>
+      </div>
+    </div>
+
+  </main>
+  <footer></footer>
+  <script src="./data/pokemon/pokemon.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+
 </html>
