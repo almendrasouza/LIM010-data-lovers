@@ -23,4 +23,9 @@ Clasificando a estos pokemones
   - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
   - Imagen y link del prototipo de alta fidelidad final (mobile y desktop) en 
   Figma.
+##Prototipo en papel y lapiz
+<img src= "./src/img/vistalogin.jpeg"  width="500" height="270">
+<img src= "./src/img/vistapokemoninactiva.jpeg"  width="500" height="270">
+<img src= "./src/img/vistapokemonesactiva.jpeg"  width="500" height="270">
+<img src= "./src/img/vistaclickpokemon.jpeg"  width="500" height="270">
 
