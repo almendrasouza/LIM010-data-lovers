@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
+<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
 
 <head>
   <meta charset="utf-8">
   <title>Pokemón Data</title>
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <nav>
+      <a href="/Inicio/" class="nav-menu">Inicio</a>
+      <a href="/Acerca de nosotros/" class="nav-menu">Acerca de nosotros</a>
+      <a href="/Salir/" class="nav-menu">Salir</a>
+      </nav>
+  </header>
   <main>
-    <div id="vista-login">
+    <div id="view-back">
       <div class="login-box" id="login-box">
         <section class="box">
-          <img src="img/pokemon.png" alt="" class="image">
-          <div class="name-password">
-            <label for="name" class="items-login">Correo electronico</label>
-            <input type="text" class="items-login" id="name">
-            <label for="Password" class="items-login">Contraseña</label>
-            <input type="password" class="items-login" id="Password">
-            <a href="#" class="items-login" id="olvidaste-contraseña">¿Olvidaste tu contraseña?</a>
+          <img src="img/pokemon.png" class="image">
+          <div class="username-password">
+            <label for="username" class="items-login">Correo electronico</label>
+            <input type="text" id="username" class="size-input">
+            <label for="password" class="items-login">Contraseña</label>
+            <input type="password" id="password" class="size-input">
+            <a href="#" class="dont-password">¿Olvidaste tu contraseña?</a>
+            <p id="result1" class="message-error"></p>
           </div>
-
-          <input type="submit" class="items-login" value="Ingresa" id="btnlogin">
-          <p>¿No tienes cuenta?</p>
-          <a href="#" class="blacks-words">Registrate</a>
+          <div class="enter-register">
+            <button type="button" class="size-button" id="btnlogin">Ingresa</button>
+            <p class="normal-text">¿No tienes una cuenta?</p>
+            <a class="inline" href="#" class="blacks-words">Registrate</a>
+          </div>
         </section>
-
       </div>
-
-      <div class="hide" id="pokemon-vista">
-        <p>Vista de prueba</p>
-      </div>
+      <div class="hide" id="pokemon-card"></div>
     </div>
   </main>
 
