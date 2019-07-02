@@ -38,3 +38,5 @@ pokemonCardDiv.innerHTML += `<div class="pokemon-card-style">
 </div>`;
 };
 //hacer un dropdown en html que imprima
+
+

@@ -15,6 +15,7 @@
   border-radius: 8px;
   font-family: 'Acme', sans-serif;
 }
+<<<<<<< HEAD
 .image{
   width: 221.15px;
   height: 60px;
@@ -23,6 +24,8 @@
   margin-left: 49px;
   margin-right: 49.85px;
 }
+=======
+>>>>>>> d00cf6f66098789ce7f802726f730e2e838279ea
 .items-login{
   height: 10px;
   display: block;
