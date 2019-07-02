@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr">
-<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
-
 <head>
   <meta charset="utf-8">
   <title>Pokemón Data</title>
   <link rel="stylesheet" href="style.css">
-
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
 </head>
-
 <body>
   <header>
     <nav>
-      <a href="/Inicio/" class="nav-menu">Inicio</a>
-      <a href="/Acerca de nosotros/" class="nav-menu">Acerca de nosotros</a>
-      <a href="/Salir/" class="nav-menu">Salir</a>
-      </nav>
+      <a href="#" class="nav-menu">Inicio</a>
+      <a href="#" class="nav-menu">Acerca de nosotros</a>
+      <a href="#" class="nav-menu">Salir</a>
+    </nav>
   </header>
   <main>
     <div id="view-back">
       <div class="login-box" id="login-box">
         <section class="box">
-          <img src="img/pokemon.png" class="image">
+          <h1>Pokemon Data</h1>
           <div class="username-password">
             <label for="username" class="items-login">Correo electronico</label>
             <input type="text" id="username" class="size-input">
@@ -33,19 +30,16 @@
           <div class="enter-register">
             <button type="button" class="size-button" id="btnlogin">Ingresa</button>
             <p class="normal-text">¿No tienes una cuenta?</p>
-            <a class="inline" href="#" class="blacks-words">Registrate</a>
+            <a href="#" class="blacks-words inline">Registrate</a>
           </div>
         </section>
       </div>
       <div class="hide" id="pokemon-card"></div>
     </div>
   </main>
-
-
   <footer></footer>
   <script src="./data/pokemon/pokemon.js"></script>
   <script src="data.js"></script>
   <script src="main.js"></script>
 </body>
-
 </html>
