@@ -20,6 +20,7 @@ const dataInfo = (arrayObjetos) => {//[{17 propiedades},{15 propiedades},{}]un a
     let pokemonSpawn = pokemon["avg_spawns"];
     let pokemonWeakness = pokemon["weaknesses"];
     let pokemonType = pokemon["type"];
+    let pokemonMultipliers= pokemon["multipliers"];
     //creando un objeto que tengas solo propiedades con la informacion que yo deseo.
     newArrayObjPokemonInfo.push({
       img: pokemonImg,//string
@@ -32,6 +33,7 @@ const dataInfo = (arrayObjetos) => {//[{17 propiedades},{15 propiedades},{}]un a
       spawn: pokemonSpawn,//number
       weakness: pokemonWeakness,//["",""] voy a acceder A un array de string
       type: pokemonType,// ["",""]
+      multipliers:pokemonMultipliers,
     });
   }
   return newArrayObjPokemonInfo;//[{},{}]
@@ -40,23 +42,41 @@ const dataInfo = (arrayObjetos) => {//[{17 propiedades},{15 propiedades},{}]un a
 window.dataInfo = dataInfo;
 
 
-//crear funcion por tipo
-const filterPokemonByType = (arrayObjetos8, condition) => {
+
+
+
+
+
+
+
+
+
+//crear funcion por tipo// ME FALTA TEMRINAR //NO TOCAAAAAAAAAAAAAAAAAAAAAAR
+const filterPokemonByType = (arrayObjetos9, condition) => {
   // [{},{8properties}] aqui entra un array de objetos y una condicion(es un string)
   let newArrayPokemonFilterbyType = [];
-  for (let i = 0; i < arrayObjetos8.length; i++) {
-    arrayObjetos8[i];//{8 properties}
-    const arrayOfStrings = arrayObjetos8[i].type;
+  for (let i = 0; i < arrayObjetos9.length; i++) {
+    arrayObjetos9[i];//{8 properties}
+    const arrayOfStrings = arrayObjetos9[i].type;
     //["",""]accediendo a un array de strings
     for (let i = 0; i < arrayOfStrings.length; i++) {
       arrayOfStrings[i];
       let string = arrayOfStrings[i];
       if (condition === string) {
-        arrayObjetos8[i];//{}
-        newArrayPokemonFilterbyType.push(arrayObjetos8[i]);
+        arrayObjetos9[i];//{}
+        newArrayPokemonFilterbyType.push(arrayObjetos9[i]);
       }
     }
   }
   return newArrayPokemonFilterbyType;
 };
+
 window.filterPokemonByType = filterPokemonByType;
+
+
+
+
+
+
+
+

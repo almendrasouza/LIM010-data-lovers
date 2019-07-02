@@ -24,17 +24,18 @@ dataInfo(arrayDeObjPokemon)
 //console.log(dataInfo(arrayDeObjPokemon));//[{},{img,name,height,id,egg}]
 
 
-const newArrayObjPokemonWith8Keys = dataInfo(arrayDeObjPokemon); //[{},{},{}]
+const newArrayObjPokemonWith9Keys = dataInfo(arrayDeObjPokemon); //[{},{},{}]
 
-for (let i = 0; i < newArrayObjPokemonWith8Keys.length; i++) {
-newArrayObjPokemonWith8Keys[i]; //{img,name,height,id,egg}
+for (let i = 0; i < newArrayObjPokemonWith9Keys.length; i++) {
+newArrayObjPokemonWith9Keys[i]; //{img,name,height,id,egg}
 pokemonCardDiv.innerHTML += `<div class="pokemon-card-style">
-<p id="pokemon-name">Nombre:${newArrayObjPokemonWith8Keys[i].name}</p>
-<img id="pokemon-img" src="${newArrayObjPokemonWith8Keys[i].img}"alt=""> 
-<p id="pokemon-egg">Huevo:${newArrayObjPokemonWith8Keys[i].egg}</p>
-<p id="pokemon-height">Altura:${newArrayObjPokemonWith8Keys[i].height}</p>
-<p id="pokemon-spawn">Frecuencia de Aparicion:${newArrayObjPokemonWith8Keys[i].spawn}</p>
-<p id="pokemon-id">Id:${newArrayObjPokemonWith8Keys[i].id}</p>
+<p id="pokemon-name">Nombre:${newArrayObjPokemonWith9Keys[i].name}</p>
+<img id="pokemon-img" src="${newArrayObjPokemonWith9Keys[i].img}"alt=""> 
+<p id="pokemon-egg">Huevo:${newArrayObjPokemonWith9Keys[i].egg}</p>
+<p id="pokemon-height">Altura:${newArrayObjPokemonWith9Keys[i].height}</p>
+<p id="pokemon-spawn">Frecuencia de Aparicion:${newArrayObjPokemonWith9Keys[i].spawn}</p>
+<p id="pokemon-id">Id:${newArrayObjPokemonWith9Keys[i].id}</p>
+<p id="pokemon-multipliers">Atrapados:${newArrayObjPokemonWith9Keys[i].multipliers}</p>
 </div>`;
 };
 //hacer un dropdown en html que imprima
