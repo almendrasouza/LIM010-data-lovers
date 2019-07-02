@@ -96,4 +96,16 @@
   color: royalblue;
   height: 100px;
 }
-
+#pokemon-img{
+    display:flex;
+    justify-content: center;
+    font-family: Arial;
+}
+#pokemon-card{
+  display: flex;
+    flex-wrap: wrap; 
+    text-align: center;
+    font-size: 21px;
+    background:yellow;
+}
+ 
