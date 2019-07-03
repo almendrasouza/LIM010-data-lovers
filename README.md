@@ -2,27 +2,45 @@
 
 ## Pokemon Data
 
-Es una página web que sirve para visualizar y manipular data acerca de pokemones para lograr estrategias de juego con el objetivo que esta información sea entendible y amigable, el usuario es un jugador de pokemon go, el usuario y contraseña es LABORATORIA.
+Pokemon data es una plataforma donde el usuario puede visualizar y acceder a una información entendible, potente y amigable. El jugador de Pokemon ingresará al sitio siempre que escriba como usuario y contraseña "LABORATORIA"
+
+
+
+
 La imagen final de tu proyecto.
+
+
 
 ## Investigacion UX
 
-Permite la vista y manipulación de data de todos los pokemones mostrando características para proporcionar al usuario una segmentación
 
-Clasificando a estos pokemones 
-
-
-- 
-- Investigación UX:
   - Explicar quiénes son los usuarios y los objetivos en relación con el 
   producto.
+
+
+El público objetivo de PokemonData son jovenes hombres y mujeres desde los 7 a 35 años. PokemonData busca ser una herramienta ,que brinde al usuario mayor valor informativo, mayor eficiencia y facilidad de acceso.El objetivo principal de PokemonData es visualizar una información eficiente de modo que dé una respuesta rápida a las peticiones que desean las personas.
+
+  
   - Explicar cómo el producto soluciona los problemas/necesidades de dichos 
   usuarios.
-  - Luego colocarás la foto de tu primer prototipo de baja fidelidad (mobile 
+
+
+Todos los jugadores de Pokemon tienen las ganas de seguir atrapando pokemones y convertirse en un Gran entrenador Pokemon. Esa ansia de seguir, influye en la necesidad de buscar información y obtener los datos más destacados.
+
+El usuario tiene la opción de observar las características más relevantes de los pokemones, ordenar de forma alfabética, clasificar por tipos, debilidades y saber el porcentaje de los pokemones  que aparecen en los diferentes tipos de huevos. 
+
+Por ello se creó PokemonData, una plataforma donde el usuario puede ingresar e informarse de forma sencilla cuando desee.
+
+ 
+- Luego colocarás la foto de tu primer prototipo de baja fidelidad (mobile 
   y desktop) en papel.
-  - Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  - Imagen y link del prototipo de alta fidelidad final (mobile y desktop) en 
-  Figma.
+
+
+- Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+
+xxxxxxxxxxxxxxxxxxxxxx
+
+
 ##Prototipo en papel y lapiz
 <img src= "./src/img/vistalogin.jpeg"  width="250" height="270">
 <img src= "./src/img/vistapokemoninactiva.jpeg"  width="250" height="270">
