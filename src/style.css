@@ -1,111 +1,162 @@
+body{
+  background-color:  #a8ff78;
+  background: -webkit-linear-gradient(to right, #a8ff78, #78ffd6); 
+  background: linear-gradient(to right, #a8ff78, #78ffd6);
+}
 #view-back{
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    background-image: url(./img/pokemonfondonew.jpeg);
-    height: 100vh;
-    align-items: center;
+  background-size: cover;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
 }
 .login-box{
-  background-color:#E9ED22  ;
-  width:320px;
-  height:568px;
-  display:flex;
-  justify-content: center;
-  border-radius: 8px;
-  font-family: 'Acme', sans-serif;
+background-color:#E9ED22  ;
+width:320px;
+height:568px;
+display:flex;
+justify-content: center;
+border-radius: 8px;
+font-family: 'Acme', sans-serif;
+position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
 }
 .items-login{
-  height: 10px;
-  display: block;
-  margin-top:10px;
-  margin-bottom: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
-  font-size: large;
+height: 10px;
+display: block;
+margin-top:10px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+font-size: large;
 }
 .size-input{
-  width:280px;
-  height: 30px;
-  border: none;
-  border-radius:5px;
-  font-size: large;
+width:280px;
+height: 30px;
+border: none;
+border-radius:5px;
+font-size: large;
 }
 .size-button{
-  width:280px;
-  height: 30px;
-  background-color: cornflowerblue;
-  border: none;
-  border-radius:5px;
-  font-size: large;
-  color:white;
+width:280px;
+height: 30px;
+background-color: cornflowerblue;
+border: none;
+border-radius:5px;
+font-size: large;
+color:white;
 }
 .username-password{
-  width: 280px;
-  height: 210px;
-  margin-top: 50px;
-  margin-left: 20px;
+width: 280px;
+height: 210px;
+margin-top: 50px;
+margin-left: 20px;
 }
 .blacks-words{
-  font-weight: bold;
-  font-size:large;
+font-weight: bold;
+font-size:large;
 }
 .hide{
-  display:none;
+display:none;
 }
-.dont-password{
-  margin-top:10px;
-  margin-left:140px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  display:inline-block;
-  color:black;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: small;
+#forgot-password{
+margin-top:10px;
+margin-left:140px;
+margin-right: 0px;
+margin-bottom: 0px;
+display:inline-block;
+color:black;
+text-decoration: none;
+font-weight: bold;
+font-size: small;
 }
 .enter-register{
-  margin-top:48px;
-  margin-left: 20px;
-  margin-right: 20px;
+margin-top:48px;
+margin-left: 20px;
+margin-right: 20px;
 }
 .inline{
-  display:inline-block;
-  font-size: large;
-  color:black;
-  text-decoration: none;
-  font-weight: bold;
-  margin-left: 45px;
+display:inline-block;
+font-size: large;
+color:black;
+text-decoration: none;
+font-weight: bold;
+margin-left: 45px;
 }
 .message-error{
-  color: crimson;
-  font-size: medium;
+color: crimson;
+font-size: medium;
 }
 .normal-text{
-  display:inline-block;
-  font-size: large;
-  margin:0 auto;
-}
-.nav-menu{
-  text-decoration: none;
-  margin-left: 21%;
-  margin-top: 2.5%;
-  font-size: xx-large;
-  font-weight: bold;
-  display: inline-block;
-  color: royalblue;
-  height: 100px;
-}
-#pokemon-img{
-    display:flex;
-    justify-content: center;
-    font-family: Arial;
+display:inline-block;
+font-size: large;
+margin:0 auto;
 }
 #pokemon-card{
+  padding: 0;
+  margin:50px;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
-    flex-wrap: wrap; 
-    text-align: center;
-    font-size: 21px;
-    background:yellow;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
 }
- 
+
+nav{ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-menu{ 
+  text-decoration: none;
+  /* margin-left: 16%; */
+  /* margin-top: 2.5%; */
+  font-size: 16px;
+  font-weight: bold;
+  color: royalblue;
+  font-family: 'Russo One', sans-serif;
+  margin: 5px;
+  text-align: center;
+}
+.drop-down{
+  text-align:center;
+  
+}
+.dropdown-style{
+  color:black;
+  background: linear-gradient(to right, #24CCAA, #A2DB95);
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 15px 50px;
+  font-weight: 8px; 
+  margin: 15px; 
+}
+.style-option{
+  border-radius: 50px;
+  background: #a8ff78;
+  width: 70px;
+  height: 40px;
+}
+.style-container{
+  width: 200px;
+  height: 200px;
+}
+.image{
+  width: 180px;
+  height: 180px;
+}
+
+@media screen and (min-width:764px){
+.nav-menu{
+  font-size: x-large;
+}
+
+}

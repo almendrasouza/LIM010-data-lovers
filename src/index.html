@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="utf-8">
   <title>Pokemón Data</title>
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
+  <header id="main-header" class="hide">
     <nav>
-      <a href="#" class="nav-menu">Inicio</a>
-      <a href="#" class="nav-menu">Acerca de nosotros</a>
-      <a href="#" class="nav-menu">Salir</a>
+        <a href="#" class="nav-menu">INICIO</a>
+        <a href="#" class="nav-menu">ACERCA DE NOSOTROS</a>
+        <a href="#" class="nav-menu">SALIR</a>
     </nav>
   </header>
   <main>
     <div id="view-back">
       <div class="login-box" id="login-box">
         <section class="box">
-          <h1>Pokemon Data</h1>
+          <h1> Pokemon Data </h1>
           <div class="username-password">
             <label for="username" class="items-login">Correo electronico</label>
             <input type="text" id="username" class="size-input">
             <label for="password" class="items-login">Contraseña</label>
             <input type="password" id="password" class="size-input">
-            <a href="#" class="dont-password">¿Olvidaste tu contraseña?</a>
+            <a href="#" id="forgot-password">¿Olvidaste tu contraseña?</a>
             <p id="result1" class="message-error"></p>
           </div>
           <div class="enter-register">
@@ -34,14 +36,66 @@
           </div>
         </section>
       </div>
-      
-    </div>
-    <div class="hide" ></div>
-    <div id="pokemon-card"></div>
+      <div class="hide" id="pokemon-vista">
+        <form class="drop-down">
+          <select  class="dropdown-style" id="order">
+            <option value="order" class="style-option">Ordenar</option>
+            <option value="A-Z" class="style-option">A - Z</option>
+            <option value="Z-A" class="style-option">Z - A</option>
+            <option value="Ascendente" class="style-option">Frecuencia Asc</option>
+            <option value="Descendente" class="style-option">Frecuencia Desc</option>
+           
+          </select>
+          <select class="dropdown-style" id="type-order">
+            <option value="type-order" class="style-option">Tipo</option>
+            <option value="Bug" class="style-option">Bicho</option>
+            <option value="Dark" class="style-option">Dark</option>
+            <option value="Dragon" class="style-option">Dragon</option>
+            <option value="Electric" class="style-option">Electrico</option>
+            <option value="Fighting" class="style-option">Lucha</option>
+            <option value="Fire" class="style-option">Fuego</option>
+            <option value="Flying" class="style-option">Volador</option>
+            <option value="Ghost" class="style-option">Fantasma</option>
+            <option value="Grass" class="style-option">Hierba</option>
+            <option value="Ground" class="style-option">Suelo</option>
+            <option value="Ice" class="style-option">Hielo</option>
+            <option value="Normal" class="style-option">Normal</option>
+            <option value="Poison" class="style-option">Veneno</option>
+            <option value="Psychic" class="style-option">Psiquico</option>
+            <option value="Rock" class="style-option">Roca</option>
+            <option value="Water" class="style-option">Agua</option>
+          </select>
+          <select  class="dropdown-style" id="weaknesses-type">
+            <option value="weaknesses" class="style-option">Debilidades</option>
+            <option value="Fire" class="style-option">Fuego</option>
+            <option value="Ice" class="style-option">Hielo</option>
+            <option value="Flying" class="style-option">Volador</option>
+            <option value="Psychic" class="style-option">Psiquico</option>
+            <option value="Water" class="style-option">Agua</option>
+            <option value="Ground" class="style-option" class="style-option">Suelo</option>
+            <option value="Rock" class="style-option">Roca</option>
+            <option value="Electric" class="style-option">Electrico</option>
+            <option value="Fighting" class="style-option">Lucha</option>
+          </select>
+          <select  class="dropdown-style" id="egg">
+              <option value="eggs" class="style-option">Huevos</option>
+              <option value="2 km" class="style-option">2km</option>
+              <option value="5 km" class="style-option">5km</option>
+              <option value="10 km" class="style-option">10km</option>
+              <option value="Not in Eggs" class="style-option">Not in eggs</option>
+              
+            </select>
+        </form>
+        <div id="pokemon-card" >
+          
+        </div>
+      </div>
   </main>
+
   <footer></footer>
   <script src="./data/pokemon/pokemon.js"></script>
   <script src="data.js"></script>
   <script src="main.js"></script>
 </body>
+
 </html>
