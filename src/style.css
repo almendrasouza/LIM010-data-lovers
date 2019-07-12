@@ -1,4 +1,111 @@
-.pokemon-card-style{
-    
-    border: 1px solid blue;
+#view-back{
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    background-image: url(./img/pokemonfondonew.jpeg);
+    height: 100vh;
+    align-items: center;
 }
+.login-box{
+  background-color:#E9ED22  ;
+  width:320px;
+  height:568px;
+  display:flex;
+  justify-content: center;
+  border-radius: 8px;
+  font-family: 'Acme', sans-serif;
+}
+.items-login{
+  height: 10px;
+  display: block;
+  margin-top:10px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-size: large;
+}
+.size-input{
+  width:280px;
+  height: 30px;
+  border: none;
+  border-radius:5px;
+  font-size: large;
+}
+.size-button{
+  width:280px;
+  height: 30px;
+  background-color: cornflowerblue;
+  border: none;
+  border-radius:5px;
+  font-size: large;
+  color:white;
+}
+.username-password{
+  width: 280px;
+  height: 210px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.blacks-words{
+  font-weight: bold;
+  font-size:large;
+}
+.hide{
+  display:none;
+}
+.dont-password{
+  margin-top:10px;
+  margin-left:140px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  display:inline-block;
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: small;
+}
+.enter-register{
+  margin-top:48px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.inline{
+  display:inline-block;
+  font-size: large;
+  color:black;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 45px;
+}
+.message-error{
+  color: crimson;
+  font-size: medium;
+}
+.normal-text{
+  display:inline-block;
+  font-size: large;
+  margin:0 auto;
+}
+.nav-menu{
+  text-decoration: none;
+  margin-left: 21%;
+  margin-top: 2.5%;
+  font-size: xx-large;
+  font-weight: bold;
+  display: inline-block;
+  color: royalblue;
+  height: 100px;
+}
+#pokemon-img{
+    display:flex;
+    justify-content: center;
+    font-family: Arial;
+}
+#pokemon-card{
+  display: flex;
+    flex-wrap: wrap; 
+    text-align: center;
+    font-size: 21px;
+    background:yellow;
+}
+ 

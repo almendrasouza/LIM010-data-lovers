@@ -1,36 +1,47 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Pokemones</a></li>
-          <li><a href="">Cards</a></li>
-
-      </ul>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Pokemón Data</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="nav-menu">Inicio</a>
+      <a href="#" class="nav-menu">Acerca de nosotros</a>
+      <a href="#" class="nav-menu">Salir</a>
     </nav>
-    </header>
-    <main>
+  </header>
+  <main>
+    <div id="view-back">
+      <div class="login-box" id="login-box">
+        <section class="box">
+          <h1>Pokemon Data</h1>
+          <div class="username-password">
+            <label for="username" class="items-login">Correo electronico</label>
+            <input type="text" id="username" class="size-input">
+            <label for="password" class="items-login">Contraseña</label>
+            <input type="password" id="password" class="size-input">
+            <a href="#" class="dont-password">¿Olvidaste tu contraseña?</a>
+            <p id="result1" class="message-error"></p>
+          </div>
+          <div class="enter-register">
+            <button type="button" class="size-button" id="btnlogin">Ingresa</button>
+            <p class="normal-text">¿No tienes una cuenta?</p>
+            <a href="#" class="blacks-words inline">Registrate</a>
+          </div>
+        </section>
+      </div>
       
-<div>
-  <div  id="pokemon-card">
-
-  </div>
-</div>
-    </main>
-    <footer>
-      <p>Copyright by Almendra & Carla 2019 </p>
-    </footer>
-    <!-- <script src="./data/lol/lol.js"></script> -->
-    <script src="../src/data/pokemon/pokemon.js"></script>
-    <!-- <script src="./data/worldbank/worldbank.js"></script> -->
-    <script src="../src/data.js"></script>
-    <script src="../src/main.js"></script>
-  </body>
+    </div>
+    <div class="hide" ></div>
+    <div id="pokemon-card"></div>
+  </main>
+  <footer></footer>
+  <script src="./data/pokemon/pokemon.js"></script>
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
 </html>
