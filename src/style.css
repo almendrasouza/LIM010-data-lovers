@@ -122,7 +122,7 @@ font-weight: bold;
 .normal-text{
 display:inline-block;
 margin:0 auto;
-color: black
+color: black;
 font-weight: bold;
 }
 #pokemon-card{
