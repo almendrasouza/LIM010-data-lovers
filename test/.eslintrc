@@ -2,8 +2,7 @@
   "env": {
     "node": true,
     "mocha": true
-  },
-  "globals": {
-    "assert": false
   }
 }
+
+
