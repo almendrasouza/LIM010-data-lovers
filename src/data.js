@@ -1,4 +1,4 @@
-/* Manejo de data original*/
+/* Manejo de data */
 
 // crear funcion para ordenar por nombre con dos parametros, puede ser ciualquier nombre relacionado, y se llamada desde el main.js
 const sortPoke1 = (data, sortOrder) => { // [{},{},{}...] y condicio
@@ -56,8 +56,8 @@ const filterType = (data, type) => {
 const filterWeaknesses = (data, weaknesses) => { //  por debilidad
   let arrayWeaknessesType = [];
   for (let i = 0; i < data.length; i++) {
-    for (let ab = 0; ab < data[i].weaknesses.length; ab++) { //  a ese obj le estoy aplicando su propiead weakn..y obtengo un array de strings y luego recorreidno ese arradestrin
-      if (data[i].weaknesses[ab] === weaknesses) { //  siladebiliaddel poke es igual a ladebilidad que escoge el usuario entonces push/o mete el poke dentro de un array
+    for (let a = 0; a < data[i].weaknesses.length; a++) { //  a ese obj le estoy aplicando su propiead weakn..y obtengo un array de strings y luego recorreidno ese arradestrin
+      if (data[i].weaknesses[a] === weaknesses) { //  siladebiliaddel poke es igual a ladebilidad que escoge el usuario entonces push/o mete el poke dentro de un array
         arrayWeaknessesType.push(data[i]); //  push para ir agregando elementos en el array
       }
     }
