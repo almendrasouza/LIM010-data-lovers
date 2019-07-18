@@ -1,8 +1,8 @@
 # Data Lovers
 
-## Pokemon Data
+## Pokemon story
 
-Pokemon data es una plataforma donde el usuario puede visualizar y acceder a una información entendible, potente y amigable. El jugador de Pokemon ingresará al sitio siempre que escriba como usuario y contraseña "LABORATORIA"
+Pokemon story es una plataforma donde el usuario puede visualizar y acceder a una información entendible, potente y amigable. El jugador de Pokemon ingresará al sitio siempre que escriba como usuario y contraseña "LABORATORIA"
 
 
 
@@ -18,7 +18,7 @@ La imagen final de tu proyecto.
   producto.
 
 
-El público objetivo de PokemonData son jovenes hombres y mujeres desde los 7 a 35 años. PokemonData busca ser una herramienta ,que brinde al usuario mayor valor informativo, mayor eficiencia y facilidad de acceso.El objetivo principal de PokemonData es visualizar una información eficiente de modo que dé una respuesta rápida a las peticiones que desean las personas.
+El público objetivo de PokemonStory son jovenes hombres y mujeres desde los 7 a 35 años. PokemonStory busca ser una herramienta ,que brinde al usuario mayor valor informativo, mayor eficiencia y facilidad de acceso.El objetivo principal de PokemonStory es visualizar una información eficiente de modo que dé una respuesta rápida a las peticiones que desean las personas.
 
   
   - Explicar cómo el producto soluciona los problemas/necesidades de dichos 
@@ -29,7 +29,7 @@ Todos los jugadores de Pokemon tienen las ganas de seguir atrapando pokemones y 
 
 El usuario tiene la opción de observar las características más relevantes de los pokemones, ordenar de forma alfabética, clasificar por tipos, debilidades y saber el porcentaje de los pokemones  que aparecen en los diferentes tipos de huevos. 
 
-Por ello se creó PokemonData, una plataforma donde el usuario puede ingresar e informarse de forma sencilla cuando desee.
+Por ello se creó PokemonStory, una plataforma donde el usuario puede ingresar e informarse de forma sencilla cuando desee.
 
  
 - Luego colocarás la foto de tu primer prototipo de baja fidelidad (mobile 

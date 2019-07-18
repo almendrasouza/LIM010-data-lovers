@@ -8,7 +8,7 @@ const mainHeader = document.getElementById('main-header');
 btnLogin.addEventListener('click', () => {
   const userValue = document.getElementById('username').value;
   const passwordValue = document.getElementById('password').value;
-  if (userValue === 'c' && passwordValue === '1') {
+  if (userValue === 'LABORATORIA' && passwordValue === 'LABORATORIA') {
     loginVista.classList.add('hide');
     pokemonVista.classList.remove('hide');
     mainHeader.classList.remove('hide');

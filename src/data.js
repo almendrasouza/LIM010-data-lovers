@@ -69,7 +69,6 @@ const filterWeaknesses = (data, weaknesses) => { //  por debilidad
 const filterPokByKmEgg = (arrObj, kmEgg) => { //  [{},{}]y el  km de huevo que selecciona el usuario
   let newArrayPokeFilteredByKmEgg = [];
   for (let i = 0; i < arrObj.length; i++) { //  longitud del array de poke o objetos y obtener c/obejto
-    //{}
     if (arrObj[i].egg === kmEgg) { //  da valor string/si cuando al obj le aplicas su propiedad egg.cumple esa condicion
       newArrayPokeFilteredByKmEgg.push(arrObj[i]); //  que coloque este poke dentro del array vacio
     }
