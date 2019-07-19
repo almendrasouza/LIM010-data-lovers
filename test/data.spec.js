@@ -141,3 +141,44 @@ describe('sortPoke1', () => {
     expect(sortPoke1(input2, 'Z-A')[0].name).toEqual('Venusaur');
   });
 });
+
+
+describe('filterType(, () => {
+  it('debería ser una función', () => {
+    expect(typeof)filterType(.toEqual('function');
+  });
+
+  it('debería retornar 1.7', () => {
+    expect(filterType(input2, 'Ascendente')[0].avg_spawns).toEqual(1.7);
+  });
+  it('debería retornar 69', () => {
+    expect(filterType(input2, 'Descendente')[0].avg_spawns).toEqual(69);
+  });
+});
+
+
+describe('filterType', () => {
+  it('debería ser una array de string', () => {
+    expect(received).toEqual(expected);
+  });
+
+  it('debería retornar Grass, Poison', () => {
+    expect(filterType(input2, 'Grass', 'Poison')[0].type.length).toEqual(['Grass', 'Poison']);
+  });
+  it('debería retornar Fire', () => {
+    expect(filterType(input2, ['Fire'])[0].type.length).toEqual(['Fire']);
+  });
+});
+
+describe('filterType', () => {
+  it('debería ser una función', () => {
+    expect(received).toEqual(expect);
+  });
+
+  it('debería retornar  Grass, Poison', () => {
+    expect(filterType(input2, 'Ascendente')[0].type).toEqual(1.7);
+  });
+  it('debería retornar Fire', () => {
+    expect(filterType(input2, ')[0].type).toEqual(69);
+  });
+});
