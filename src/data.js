@@ -40,7 +40,7 @@ const sortSpawn = (data, sortOrder) => {
   return 0;
 };
 
-const filterType = (data, type) => {
+const filterByType = (data, type) => {
   let arrayType = [];
   for (let i = 0; i < data.length; i++) { //  {},
     for (let ab = 0; ab < data[i].type.length; ab++) { //  data.type retorna un array de string y recorrer el arr de setring de uno en uno y ahi obtengo el tipo
@@ -81,14 +81,14 @@ const filterPokByKmEgg = (arrObj, kmEgg) => { //  [{},{}]y el  km de huevo que s
 const calculatePercentageOfPokeFilteredByKmEgg = (arPokeFilteredByKmEgg) => { //  [{},{},{}]arry de poke ya clasificados por km de huevo
   const numberOfPoke = arPokeFilteredByKmEgg.length;
   const percentage = (numberOfPoke * 100) / 151;
-  console.log(percentage);
-  return percentage; //  number
+  console.log(percentage);//  number
+  return percentage.toFixed(2); // string redondeado 
 };
 
 
 window.sortPoke1 = sortPoke1;
 window.sortSpawn = sortSpawn;
-window.filterType = filterType;
+window.filterByType = filterByType;
 window.filterWeaknesses = filterWeaknesses;
 window.filterPokByKmEgg = filterPokByKmEgg;
 window.calculatePercentageOfPokeFilteredByKmEgg = calculatePercentageOfPokeFilteredByKmEgg;

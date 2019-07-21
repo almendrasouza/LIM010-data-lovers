@@ -143,42 +143,59 @@ describe('sortPoke1', () => {
 });
 
 
-describe('filterType(, () => {
+describe('sortSpawn', () => {
   it('debería ser una función', () => {
-    expect(typeof)filterType(.toEqual('function');
+    expect(typeof sortSpawn).toEqual('function');
   });
 
   it('debería retornar 1.7', () => {
-    expect(filterType(input2, 'Ascendente')[0].avg_spawns).toEqual(1.7);
+    expect(sortSpawn(input2, 'Ascendente')[0].avg_spawns).toEqual(1.7);
   });
   it('debería retornar 69', () => {
-    expect(filterType(input2, 'Descendente')[0].avg_spawns).toEqual(69);
+    expect(sortSpawn(input2, 'Descendente')[0].avg_spawns).toEqual(69);
   });
 });
 
 
-describe('filterType', () => {
-  it('debería ser una array de string', () => {
-    expect(received).toEqual(expected);
-  });
-
-  it('debería retornar Grass, Poison', () => {
-    expect(filterType(input2, 'Grass', 'Poison')[0].type.length).toEqual(['Grass', 'Poison']);
-  });
-  it('debería retornar Fire', () => {
-    expect(filterType(input2, ['Fire'])[0].type.length).toEqual(['Fire']);
-  });
-});
-
-describe('filterType', () => {
+describe('filterByType', () => {
   it('debería ser una función', () => {
-    expect(received).toEqual(expect);
+    expect(typeof filterByType).toEqual('function');
   });
 
-  it('debería retornar  Grass, Poison', () => {
-    expect(filterType(input2, 'Ascendente')[0].type).toEqual(1.7);
+  it('debería retornar Charmander', () => {
+    expect(filterByType(input2, 'Fire')[0].name).toEqual('Charmander');
   });
-  it('debería retornar Fire', () => {
-    expect(filterType(input2, ')[0].type).toEqual(69);
+});
+
+describe('filterWeaknesses', () => {
+  it('debería ser una función', () => {
+    expect(typeof filterWeaknesses).toEqual('function');
+  });
+
+  it('debería retornar Charmander', () => {
+    expect(filterWeaknesses(input2, 'Water')[0].name).toEqual('Charmander');
+  });
+});
+
+describe('filterPokByKmEgg', () => {
+  it('debería ser una función', () => {
+    expect(typeof filterPokByKmEgg).toEqual('function');
+  });
+
+  it('debería retornar Bulbasaur ', () => {
+    expect(filterPokByKmEgg(input2, '2 km')[0].name).toEqual('Bulbasaur');
+  });
+  it('debería retornar Charmander', () => {
+    expect(filterPokByKmEgg(input2, '2 km')[1].name).toEqual('Charmander');
+  });
+});
+
+describe('calculatePercentageOfPokeFilteredByKmEgg', () => {
+  it('debería ser una función', () => {
+    expect(typeof calculatePercentageOfPokeFilteredByKmEgg).toEqual('function');
+  });
+
+  it('debería retornar un string 1.32', () => {
+    expect(calculatePercentageOfPokeFilteredByKmEgg(filterPokByKmEgg(input2, '2 km'))).toEqual('1.32');
   });
 });
