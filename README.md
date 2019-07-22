@@ -6,6 +6,8 @@
 
 **--------.>GUÍA COMPLETA<----------**
 
+
+
 **-----ETAPA 1: INVESTIGACIÓN**
 
 . INTRODUCCION A POKEMON GO
