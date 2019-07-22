@@ -7,19 +7,25 @@
 **--------.>GUÍA COMPLETA<----------**
 
 **-----ETAPA 1: INVESTIGACIÓN**
+
 . INTRODUCCION A POKEMON GO
+
 .HISTORIAS DE USUARIO
 
 **-----ETAPA 2: ORGANIZACIÓN**
+
 .FLUJOGRAMAS
 
 **------ETAPA 3: PROTOTIPADO**
+
 .BAJA Y ALTA FIDELIDAD CON FUNCIONALIDADES
 
 **------ETAPA 4: PRUEBAS A PÚBLICO ESPECÍFICO**
+
 Informes evaluativos y testeos
 
 **------ETAPA 5: DISEÑO**
+
 .Fuentes para diseñar  y aplicar interacción y estilos
 
 **------ETAPA: 6 LANZAMIENTO**
@@ -45,21 +51,27 @@ Informes evaluativos y testeos
 
 
 **(HISTORIA 1)**
+
 Como usuaria quiero poder loguearme para acceder al sitio web.
 
 **(HISTORIA 2)**
+
 Como usuaria quiero poder ver a todos los pokemones al ingresar a la página para saber cuántos tengo y cuántos me faltan atrapar.
 
 **(HISTORIA 3)**
+
 Como usuaria quiero poder elegir un pokemon para ver sus características más relevantes.
 
 **(HISTORIA 4)**
+
 Como usuaria quiero poder ordenar por orden alfabético (A-Z y Z-A) y frecuencia de aparición (spawn) de manera ascendente (menor a mayor) o descendente (mayor a menor) a los pokemones para poder ubicarlos fácilmente y saber cuáles son los más difíciles de atrapar.
 
 **(HISTORIA 5)**
+
 Como usuaria quiero poder filtrar a los pokemones por tipo y debilidades para saber quiénes y cuántos son de cada tipo y tienen esa debilidad.
 
 **(HISTORIA 6)**
+
 Como usuaria quiero poder obtener el porcentaje de los pokemones que aparecen en los diferentes tipos de huevo para saber qué huevos eclosionar.
 
 
@@ -91,7 +103,9 @@ Por ello se creó **PokemonStory**, una plataforma donde el usuario puede ingres
 **//ETAPA 3: PROTOTIPADO//**
 
 **------BAJA Y ALTA FIDELIDAD CON FUNCIONALIDADES------>**
+
 ##Prototipo en papel y lapiz
+
 <img src= "./src/img/vistalogin.jpeg"  width="250" height="270">
 <img src= "./src/img/vistapokemoninactiva.jpeg"  width="250" height="270">
 <img src= "./src/img/vistapokemonesactiva.jpeg"  width="250" height="270">
@@ -108,6 +122,7 @@ Por ello se creó **PokemonStory**, una plataforma donde el usuario puede ingres
 
 
 A)Testeos a Usuarios
+
 B)Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
 
