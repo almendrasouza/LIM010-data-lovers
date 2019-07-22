@@ -38,7 +38,7 @@ A) HISTORIA DE POKEMON EN UNOS SEGUNDOS--->
 
 B)¿DE QUÉ TRATA Y CÓMO FUNCIONA POKEMON GO?---->
 
-   VIDEO(https://www.youtube.com/watch?v=mSXL3FYC7qM(Guia Sencilla y rapida))
+   VIDEO(https://www.youtube.com/watch?v=mSXL3FYC7qM  (Guia Sencilla y rapida))
 
 
 C) HISTORIAS DE USUARIO---->
