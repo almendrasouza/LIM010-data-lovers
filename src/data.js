@@ -1,12 +1,12 @@
 /* Manejo de data */
 
 // crear funcion para ordenar por nombre con dos parametros, puede ser ciualquier nombre relacionado, y se llamada desde el main.js
-const sortPoke1 = (data, sortOrder) => { // [{},{},{}...] y condicio
+const sortPoke1 = (data, sortOrder) => { // [{},{},{}...] paso data y condicion
   const arrayNamePoke = data.slice().sort((ab, bc) => { //  slice saca una copia del array de obj, sort lo ordena ese arrydeobj de acuerdo a la condicion que se dice y retorna un nuevoarraydeobjetos ordenado
     if (ab.name > bc.name) { //  de mayor a menor en letra del abecedario ejm almen y zalet
       return 1; //  sort esta comparando los nombres de los pokemones y ordenandoles por oden alfabetico
-    }
-    if (ab.name < bc.name) {
+    }//poke 1 <poke 2 returne poke1 porq es mayor
+    if (ab.name < bc.name) { //si poke 1 < poke2 returne poke2
       return -1; //  sort es un high order function(funcion de orden superior)es una funcion q recibe commo parametro otra funcon o retorna otra funcion
     } //  sort,map y filter son funciones de orden superior
     return 0; // que se queda en la misma posicion

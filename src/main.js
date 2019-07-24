@@ -36,7 +36,7 @@ const showPoke = (arrayPokeObj) => { //  [{},{}]
          <p>Estatura : ${arrayPokeObj[i].height}</p>  
          <p>Huevos : ${arrayPokeObj[i].egg}</p>
          <p>Frec. Aparición : ${arrayPokeObj[i].avg_spawns}%</p>
-         </div>  
+       </div>  
   
       </div>`;
     showDivOfPoke += divPokInfo;
@@ -71,37 +71,53 @@ selector2.addEventListener('change', () => {
   let optionSelector2 = selector2.value; // alojar en una variable let el valor de mi selector 
   let pokefilterByType;
   if (optionSelector2 === 'Bug') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+   const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Dark') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Dragon') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Electric') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Fighting') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Fire') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Flying') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Ghost') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Grass') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Ground') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Ice') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Normal') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Poison') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Psychic') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Rock') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else if (optionSelector2 === 'Water') {
-    pokefilterByType = filterByType(pokeData, optionSelector2);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokefilterByType = filterByType(pokeOrderedByAZ, optionSelector2);
   } else {
     contenedor.innerHTML = showPoke(pokeData); // muestra pokemones  de mi funcion mostrarPoker de mi data
   } // console.log(pokefilterByType);
@@ -113,23 +129,32 @@ selector3.addEventListener('change', () => {
   let optionSelector3 = selector3.value; // alojar en una variable let el valor de mi selector 
   let pokeFilterWeaknesses;
   if (optionSelector3 === 'Fire') {
-    pokeFilterWeaknesses = filterWeaknesses(pokeData, optionSelector3);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokeFilterWeaknesses = filterWeaknesses(pokeOrderedByAZ, optionSelector3);
   } else if (optionSelector3 === 'Ice') {
-    pokeFilterWeaknesses = filterWeaknesses(pokeData, optionSelector3);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokeFilterWeaknesses = filterWeaknesses(pokeOrderedByAZ, optionSelector3);
   } else if (optionSelector3 === 'Flying') {
-    pokeFilterWeaknesses = filterWeaknesses(pokeData, optionSelector3);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokeFilterWeaknesses = filterWeaknesses(pokeOrderedByAZ, optionSelector3);
   } else if (optionSelector3 === 'Psychic') {
-    pokeFilterWeaknesses = filterWeaknesses(pokeData, optionSelector3);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokeFilterWeaknesses = filterWeaknesses(pokeOrderedByAZ, optionSelector3);
   } else if (optionSelector3 === 'Water') {
-    pokeFilterWeaknesses = filterWeaknesses(pokeData, optionSelector3);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokeFilterWeaknesses = filterWeaknesses(pokeOrderedByAZ, optionSelector3);
   } else if (optionSelector3 === 'Ground') {
-    pokeFilterWeaknesses = filterWeaknesses(pokeData, optionSelector3);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokeFilterWeaknesses = filterWeaknesses(pokeOrderedByAZ, optionSelector3);
   } else if (optionSelector3 === 'Rock') {
-    pokeFilterWeaknesses = filterWeaknesses(pokeData, optionSelector3);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokeFilterWeaknesses = filterWeaknesses(pokeOrderedByAZ, optionSelector3);
   } else if (optionSelector3 === 'Electric') {
-    pokeFilterWeaknesses = filterWeaknesses(pokeData, optionSelector3);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokeFilterWeaknesses = filterWeaknesses(pokeOrderedByAZ, optionSelector3);
   } else if (optionSelector3 === 'Fighting') {
-    pokeFilterWeaknesses = filterWeaknesses(pokeData, optionSelector3);
+    const pokeOrderedByAZ= sortPoke1(pokeData, 'A-Z');
+    pokeFilterWeaknesses = filterWeaknesses(pokeOrderedByAZ, optionSelector3);
   } else {
     contenedor.innerHTML = showPoke(pokeData); // muestra pokemones  de mi funcion mostrarPoker de mi data
   } //  console.log(pokeFilterWeaknesses);
@@ -143,16 +168,20 @@ selector4.addEventListener('change', () => {
   let pokeFilterEgg;
   let percentage;
   if (optionSelector4 === '2 km') {
-    pokeFilterEgg = filterPokByKmEgg(pokeData, optionSelector4);
+    const pokeOrderedByAZ = sortPoke1(pokeData,'A-Z'); 
+    pokeFilterEgg = filterPokByKmEgg(pokeOrderedByAZ, optionSelector4);
     percentage = calculatePercentageOfPokeFilteredByKmEgg(pokeFilterEgg);
   } else if (optionSelector4 === '5 km') {
-    pokeFilterEgg = filterPokByKmEgg(pokeData, optionSelector4);
+    const pokeOrderedByAZ = sortPoke1(pokeData,'A-Z'); 
+    pokeFilterEgg = filterPokByKmEgg(pokeOrderedByAZ, optionSelector4);
     percentage = calculatePercentageOfPokeFilteredByKmEgg(pokeFilterEgg);
   } else if (optionSelector4 === '10 km') {
-    pokeFilterEgg = filterPokByKmEgg(pokeData, optionSelector4);
+    const pokeOrderedByAZ = sortPoke1(pokeData,'A-Z'); 
+    pokeFilterEgg = filterPokByKmEgg(pokeOrderedByAZ, optionSelector4);
     percentage = calculatePercentageOfPokeFilteredByKmEgg(pokeFilterEgg);
   } else if (optionSelector4 === 'Not in Eggs') {
-    pokeFilterEgg = filterPokByKmEgg(pokeData, optionSelector4);
+    const pokeOrderedByAZ = sortPoke1(pokeData,'A-Z'); 
+    pokeFilterEgg = filterPokByKmEgg(pokeOrderedByAZ, optionSelector4);
     percentage = calculatePercentageOfPokeFilteredByKmEgg(pokeFilterEgg);
   } else {
     //  percentage es undefined
