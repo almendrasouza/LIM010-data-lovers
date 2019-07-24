@@ -1,14 +1,16 @@
 body {
-  background: url(https://cdn.pixabay.com/photo/2016/08/07/08/36/pokemon-1575834_960_720.jpg);
+  background: url(img/pikachu.jpg);
   background-attachment: fixed;
   background-position: center center;
   background-size: cover;
+
+
 }
 
-;
-
-#view-back {
-  justify-content: center;
+header {
+  border: white solid 1px;
+  background-color: rgba(5, 5, 5, 0.7);
+  border-radius: 10px;
 }
 
 ul {
@@ -23,31 +25,20 @@ ul li {
 
 ul li a {
   text-decoration: none;
-  color: #fff;
   padding: 5px 20px;
   border: 1px solid transparent;
-  transition: 0.6s ease;
 
-}
-
-ul li a:hover {
-  background-color: #fff;
-  color: #000;
-}
-
-ul li.active a {
-  background-color: #fff;
-  color: #000;
 }
 
 .login-box {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
+  border: white solid 1px;
   width: 320px;
   height: 568px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border-radius: 8px;
+  border-radius: 18px;
   font-family: Tahoma, Geneva, sans-serif;
   position: absolute;
   left: 50%;
@@ -58,52 +49,62 @@ ul li.active a {
 
 .logo {
   width: 90%;
-  margin: 20px;
   margin: 0.2em 1em 0.2em;
 }
 
 .label {
-  height: 11px;
+  height: 14px;
   display: block;
   margin-top: 16px;
   margin-bottom: 13px;
-
   font-size: large;
   color: white;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .size-input {
   width: 280px;
   height: 30px;
   border: none;
-  border-radius: 5px;
+  color: yellow;
+  border-radius: 6px;
   font-size: large;
+  background: rgba(0, 0, 0, 0.7);
+
 }
 
 .size-button {
   width: 280px;
   height: 30px;
-  background-color: #196F3D;
-  border: none;
+  border: 1px solid #fff;
   border-radius: 5px;
   font-size: large;
-  color: white;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.6s ease;
+
 }
+
 
 .username-password {
   width: 280px;
   height: 210px;
   margin-top: 50px;
   margin-left: 20px;
+
 }
 
-.blacks-words {
+.line-blue {
   font-weight: bold;
   font-size: large;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .hide {
   display: none;
+
 }
 
 #forgot-password {
@@ -114,7 +115,7 @@ ul li.active a {
   display: inline-block;
   color: white;
   text-decoration: none;
-  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
   font-size: small;
 }
 
@@ -131,24 +132,29 @@ ul li.active a {
   text-decoration: none;
   font-weight: bold;
   margin-left: 1px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .message-error {
   color: crimson;
   font-size: medium;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.normal-text {
+.line-white {
   display: inline-block;
   margin: 0 auto;
-  color: black;
-  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+
+
 }
 
 #pokemon-card {
   padding: 0;
-  margin: 5px;
+  margin: 2px;
   list-style: none;
   display: flex;
   flex-flow: row wrap;
@@ -163,17 +169,18 @@ ul li.active a {
 }
 
 .pokemonvista {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(241, 197, 2, 0.8);
   border-radius: 8px;
-  margin: 20px;
+  margin: 35px;
   display: flex;
-
 
 }
 
-.caracteristicas {
+.caracteristics {
   color: #fff;
   text-align: center;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
 nav {
@@ -183,34 +190,30 @@ nav {
 }
 
 .nav-menu {
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
   color: white;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
+
 }
 
 .drop-down {
   text-align: center;
-
-
 }
 
 .dropdown-style {
-  color: #fff;
-  background: rgba(0, 0, 0, 0.5);
-  font-size: 20px;
+  color: yellow;
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
   width: 300px;
   height: 45px;
   margin: 15px;
-  transition: 0.6s ease;
-  border-radius: 8px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  border: white solid 1px;
 }
 
-.dropdown-style:hover {
-  background-color: #fff;
-  color: #000;
-}
 
 .image {
   width: 180px;
@@ -219,17 +222,26 @@ nav {
 
 .percent {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 30px;
   font-weight: bold;
-  background-color: rgba(255, 253, 253, 0.4);
-  transition: 0.6s ease;
+  background-color: white;
+
 }
 
-.percent:hover {
-  background-color: #fff;
-  color: #000;
+.colorpoke {
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
 }
+
+.colorshow {
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
 
 @media screen and (max-width:375px) {
   .nav-menu {
@@ -237,13 +249,12 @@ nav {
   }
 
   .dropdown-style {
-    color: #fff;
-    background: rgba(0, 0, 0, 0.5);
+    color: yellow;
+    background: rgba(0, 0, 0, 0.7);
     border-radius: 8px;
     font-size: 18px;
     width: 120px;
     height: 40px;
     margin: 10px;
   }
-
 }
