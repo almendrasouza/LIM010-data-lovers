@@ -117,8 +117,6 @@ Por ello se creó **PokemonStory**, una plataforma donde el usuario puede ingres
 <img src= "./src/img/vistapokemonesactiva.jpeg"  width="250" height="270">
 <img src= "./src/img/vistaclickpokemon.jpeg"  width="250" height="270">
 
-
-
 ........Imagenes explicando funcionalidades
 
 
@@ -138,6 +136,8 @@ B)Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 **<------Fuentes para diseñar  y aplicar interacción y estilos------>**
 
 **ETAPA 6: LANZAMIENTO(imagen de alta fidelidad)**
+
+https://drive.google.com/open?id=1HlPCOdPpBGoWng71CYnYdRV3alDjrFa3
 
 
 
