@@ -117,7 +117,7 @@ Por ello se creó **PokemonStory**, una plataforma donde el usuario puede ingres
 <img src= "./src/img/vistapokemonesactiva.jpeg"  width="250" height="270">
 <img src= "./src/img/vistaclickpokemon.jpeg"  width="250" height="270">
 
-........Colocar foto del primer prototipo de baja fidelidad (mobile y desktop) en papel.
+
 
 ........Imagenes explicando funcionalidades
 

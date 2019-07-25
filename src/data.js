@@ -17,8 +17,7 @@ const sortPoke1 = (data, sortOrder) => { // [{},{},{}...] paso data y condicion
   if (sortOrder === 'Z-A') {
     return arrayNamePoke.reverse(); // reverse() para que me devuelva lo contrario , revertir
   }
-
-  return 0;
+return 0;
 };
 
 const sortSpawn = (data, sortOrder) => {
@@ -40,10 +39,10 @@ const sortSpawn = (data, sortOrder) => {
   return 0;
 };
 
-const filterByType = (data, type) => {
+const filterByType = (data, type) => { // tipo de poke seleccionado x el usuario
   let arrayType = [];
-  for (let i = 0; i < data.length; i++) { //  {},
-    for (let ab = 0; ab < data[i].type.length; ab++) { //  data.type retorna un array de string y recorrer el arr de string de uno en uno y ahi obtengo el tipo
+  for (let i = 0; i < data.length; i++) { 
+    for (let ab = 0; ab < data[i].type.length; ab++) { //  data[i].type retorna un array de string y recorrer el arr de string de uno en uno y ahi obtengo el tipo
       if (data[i].type[ab] === type) { //  filtrar cada poke por su tipo//si el tipodepok es igual al tipo que pone la persona pushea/mete el pokemon dentro de un array
         arrayType.push(data[i]); //  push para ir agregando elementos en el array
       }
@@ -79,7 +78,7 @@ const filterPokByKmEgg = (arrObj, kmEgg) => { //  [{},{}]y el  km de huevo que s
 //  funcion para calcular  el porcentaje de pok por tipo de huevo repecto al total 151
 //  tiene como parametro el result de la funcion FiltePOk.. de la anterior funcion
 const calculatePercentageOfPokeFilteredByKmEgg = (arPokeFilteredByKmEgg) => { //  [{},{},{}]arr de poke ya clasificados por km de huevo
-  const numberOfPoke = arPokeFilteredByKmEgg.length;
+  const numberOfPoke = arPokeFilteredByKmEgg.length; //obteniendo el num de elementos de un array
   const percentage = (numberOfPoke * 100) / 151;
   //console.log(percentage); //  number
   return percentage.toFixed(2); // string redondeado 
