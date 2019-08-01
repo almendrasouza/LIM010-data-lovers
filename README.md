@@ -17,8 +17,7 @@
 **VIDEO(https://www.youtube.com/watch?v=mSXL3FYC7qM  (Guia Sencilla y rapida)**
 
 
-
-**C)**![Historia de usuarios](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/historiadeusua.png).
+![Historia de usuarios](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/historiadeusua.png).
 
 
 **HISTORIA 1**
@@ -128,8 +127,14 @@ FEEDBACK RECIBIDO:
 
 **ETAPA: 6 LANZAMIENTO**
 
+**INGRESAR DESKTOP LARGE**
+
 ![Alta fidelidad vista1poke](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/vista1poke.jpg).
+
+**DESKTOP POKEMONES**
 ![Alta fidelidad vista2poke](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/vista2poke.png).
+
+**PANTALLA MOBILE**
 ![Alta fidelidad vistamobilepoke](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/mobile.png).
 
 
