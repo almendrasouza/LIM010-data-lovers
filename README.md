@@ -97,33 +97,38 @@ AUDIO: ![Usuario 1ANDY](https://github.com/almendrasouza/LIM010-data-lovers/blob
 
 **APUNTES:**
 
-
-
-
-
-
-
+Si entendió
+Si le gusta
 
 
 ![Usuario 1Daniel](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/danielperez.png).
 
+**APUNTES:**
+
+Si entendió
+Si le gusta pero le gustaría que las imágenes sean más coloridas y más nítidos
 
 
 AUDIO: ![Usuario 2Daniel](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/danielaudiopoke.amr).
 
 
-B)Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+B) Del todo el feedback recibido eso fue lo que se implemento para mejorar
 
-FEEDBACK RECIBIDO:
+**o** Cambiar fondo de pantalla más oscura
+**o**Le gustaría saber la ubicación exacta en coordenadas(aparición) de los pokemones
+**o**Que no se vea muchas imágenes(pokes) para que no demore en cargar
+**o**En vez de **"ordenar"** cambie a **"póxedex"**(significa pokemones ordenados originalmente)
+**o** En vez de **"frecuencia de aparición"** cambie a **"probabilidad de captura o ratio"**
+**o** Cambiar de lenguaje de suelo a tierra y de hierba a planta
+
 
 # ETAPA 5: DISEÑO
 
 **Fuentes para diseñar  y aplicar interacción y estilos**
 
-
-
-
-
+|°FIGMA
+|°CANVA
+|°FREELOGODESIGN
 
 # ETAPA: 6 LANZAMIENTO
 
