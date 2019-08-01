@@ -1,5 +1,3 @@
-# Data Lovers
-
 # DISEÑO UX
 
 # POKEMON STORY
@@ -16,33 +14,34 @@
 
 **B)¿DE QUÉ TRATA Y CÓMO FUNCIONA POKEMON GO?**
 
-**VIDEO(https://www.youtube.com/watch?v=mSXL3FYC7qM  (Guia Sencilla y rapida))**
+**VIDEO(https://www.youtube.com/watch?v=mSXL3FYC7qM  (Guia Sencilla y rapida)**
 
 
-C)![Historia de usuarios](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/historiadeusua.png).
+
+**C)**![Historia de usuarios](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/historiadeusua.png).
 
 
-**(HISTORIA 1)**
+**HISTORIA 1**
 
 Como usuaria quiero poder loguearme para acceder al sitio web.
 
-**(HISTORIA 2)**
+**HISTORIA 2**
 
 Como usuaria quiero poder ver a todos los pokemones al ingresar a la página para saber cuántos tengo y cuántos me faltan atrapar.
 
-**(HISTORIA 3)**
+**HISTORIA 3**
 
 Como usuaria quiero poder elegir un pokemon para ver sus características más relevantes.
 
-**(HISTORIA 4)**
+**HISTORIA 4**
 
 Como usuaria quiero poder ordenar por orden alfabético (A-Z y Z-A) y frecuencia de aparición (spawn) de manera ascendente (menor a mayor) o descendente (mayor a menor) a los pokemones para poder ubicarlos fácilmente y saber cuáles son los más difíciles de atrapar.
 
-**(HISTORIA 5)**
+**HISTORIA 5**
 
 Como usuaria quiero poder filtrar a los pokemones por tipo y debilidades para saber quiénes y cuántos son de cada tipo y tienen esa debilidad.
 
-**(HISTORIA 6)**
+**HISTORIA 6**
 
 Como usuaria quiero poder obtener el porcentaje de los pokemones que aparecen en los diferentes tipos de huevo para saber qué huevos eclosionar.
 
@@ -77,7 +76,7 @@ Por ello se creó **PokemonStory**, una plataforma donde el usuario puede ingres
 
 **ETAPA 3: PROTOTIPADO**
 
-**BAJA Y ALTA FIDELIDAD CON FUNCIONALIDADES**
+**BAJA FIDELIDAD**
 
 ![Vista login](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/vistalogin.jpg).
 
@@ -87,13 +86,36 @@ Por ello se creó **PokemonStory**, una plataforma donde el usuario puede ingres
 
 **ETAPA 4: PRUEBAS A PÚBLICO ESPECÍFICO**
 
-**Informes evaluativos y testeos**
+**Informes evaluativos y testeos a usuarios**
 
-A)Testeos a Usuarios
+![Cuestionario](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/cuestionario.png).
+
+
+![Usuario 1ANDY](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/andy%20escobar%20(1).png).
+
+
+AUDIO: ![Usuario 1ANDY](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/andyaudiopoke.amr).
+
+**APUNTES:**
+
+
+
+
+
+
+
+
+
+![Usuario 1Daniel](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/danielperez.png).
+
+
+
+AUDIO: ![Usuario 2Daniel](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/danielaudiopoke.amr).
+
 
 B)Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
-
+FEEDBACK RECIBIDO:
 
 **ETAPA 5: DISEÑO**
 
@@ -106,11 +128,12 @@ B)Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
 **ETAPA: 6 LANZAMIENTO**
 
-![PokemonStory Alta fidelidad]().
+![Alta fidelidad vista1poke](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/vista1poke.jpg).
+![Alta fidelidad vista2poke](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/vista2poke.png).
+![Alta fidelidad vistamobilepoke](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/mobile.png).
 
 
 
-https://drive.google.com/open?id=1HlPCOdPpBGoWng71CYnYdRV3alDjrFa3
 
 
 
