@@ -153,7 +153,7 @@ B) Del todo el feedback recibido eso fue lo que se implemento para mejorar
 **PANTALLA MOBILE**
 ![Alta fidelidad vistamobilepoke](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/mobile.png).
 
-
+FIGMA: https://www.figma.com/file/GWQhSShcBmGeZfsoBw1CcJW3/Untitled?node-id=0%3A1
 
 
 
