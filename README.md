@@ -2,9 +2,9 @@
 
 # POKEMON STORY
 
-**GUÍA COMPLETA**
+# GUÍA COMPLETA
 
-**ETAPA 1: INVESTIGACIÓN**
+# ETAPA 1: INVESTIGACIÓN
 
 **INTRODUCCION A POKEMON GO**
 
@@ -45,9 +45,9 @@ Como usuaria quiero poder filtrar a los pokemones por tipo y debilidades para sa
 Como usuaria quiero poder obtener el porcentaje de los pokemones que aparecen en los diferentes tipos de huevo para saber qué huevos eclosionar.
 
 
-**ETAPA 2: ORGANIZACIÓN**
+# ETAPA 2: ORGANIZACIÓN
 
-**POKEMON STORY**
+# POKEMON STORY
 
 Crear Pokemon story, una plataforma donde el usuario puede visualizar y acceder a una información entendible y amigable. El jugador de Pokemon ingresará al sitio siempre que escriba como usuario y contraseña "LABORATORIA"
 
@@ -73,7 +73,7 @@ Por ello se creó **PokemonStory**, una plataforma donde el usuario puede ingres
 ![Flujograma PokemonStory](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/diagramapokemon.png).
 
 
-**ETAPA 3: PROTOTIPADO**
+# ETAPA 3: PROTOTIPADO
 
 **BAJA FIDELIDAD**
 
@@ -83,7 +83,7 @@ Por ello se creó **PokemonStory**, una plataforma donde el usuario puede ingres
 
 ![Vista pokemones](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/vistapokemones.jpg).
 
-**ETAPA 4: PRUEBAS A PÚBLICO ESPECÍFICO**
+# ETAPA 4: PRUEBAS A PÚBLICO ESPECÍFICO
 
 **Informes evaluativos y testeos a usuarios**
 
@@ -116,7 +116,7 @@ B)Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
 FEEDBACK RECIBIDO:
 
-**ETAPA 5: DISEÑO**
+# ETAPA 5: DISEÑO
 
 **Fuentes para diseñar  y aplicar interacción y estilos**
 
@@ -125,7 +125,7 @@ FEEDBACK RECIBIDO:
 
 
 
-**ETAPA: 6 LANZAMIENTO**
+# ETAPA: 6 LANZAMIENTO
 
 **INGRESAR DESKTOP LARGE**
 
