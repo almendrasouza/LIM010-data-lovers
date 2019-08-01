@@ -1,4 +1,6 @@
 /* Manejo del DOM */
+
+//llamnado
 const loginVista = document.getElementById('login-box');
 const pokemonVista = document.getElementById('pokemon-vista');
 const btnLogin = document.getElementById('btnlogin');

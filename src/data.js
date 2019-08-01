@@ -78,7 +78,7 @@ const filterPokByKmEgg = (arrObj, kmEgg) => { //  [{},{}]y el  km de huevo que s
 //  funcion para calcular  el porcentaje de pok por tipo de huevo repecto al total 151
 //  tiene como parametro el result de la funcion FiltePOk.. de la anterior funcion
 const calculatePercentageOfPokeFilteredByKmEgg = (arPokeFilteredByKmEgg) => { //  [{},{},{}]arr de poke ya clasificados por km de huevo
-  const numberOfPoke = arPokeFilteredByKmEgg.length; //obteniendo el num de elementos de un array
+  const numberOfPoke = arPokeFilteredByKmEgg.length; //obtenie.el num de elementos poke
   const percentage = (numberOfPoke * 100) / 151;
   //console.log(percentage); //  number
   return percentage.toFixed(2); // string redondeado 

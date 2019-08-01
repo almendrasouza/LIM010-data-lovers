@@ -4,56 +4,22 @@
 
 # POKEMON STORY
 
-**--------.>GUÍA COMPLETA<----------**
+**GUÍA COMPLETA**
+
+**ETAPA 1: INVESTIGACIÓN**
+
+**INTRODUCCION A POKEMON GO**
+
+**A) HISTORIA DE POKEMON EN UNOS SEGUNDOS**
+
+![Historia de PokemonGo](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/historiapokemon.png).
+
+**B)¿DE QUÉ TRATA Y CÓMO FUNCIONA POKEMON GO?**
+
+**VIDEO(https://www.youtube.com/watch?v=mSXL3FYC7qM  (Guia Sencilla y rapida))**
 
 
-
-
-
-
-
-**-----ETAPA 1: INVESTIGACIÓN**
-
-. INTRODUCCION A POKEMON GO
-
-.HISTORIAS DE USUARIO
-
-**-----ETAPA 2: ORGANIZACIÓN**
-
-.FLUJOGRAMAS
-
-**------ETAPA 3: PROTOTIPADO**
-
-.BAJA Y ALTA FIDELIDAD CON FUNCIONALIDADES
-
-**------ETAPA 4: PRUEBAS A PÚBLICO ESPECÍFICO**
-
-Informes evaluativos y testeos
-
-**------ETAPA 5: DISEÑO**
-
-.Fuentes para diseñar  y aplicar interacción y estilos
-
-**------ETAPA: 6 LANZAMIENTO**
-
-
-
-
-**//ETAPA 1: INVESTIGACIÓN//**
-
-**A) HISTORIA DE POKEMON EN UNOS SEGUNDOS--->**
-
-            (IMAGEN)
-
-
-
-
-**B)¿DE QUÉ TRATA Y CÓMO FUNCIONA POKEMON GO?---->**
-
-   VIDEO(https://www.youtube.com/watch?v=mSXL3FYC7qM  (Guia Sencilla y rapida))
-
-
-**C) HISTORIAS DE USUARIO---->**
+C)![Historia de usuarios](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/historiadeusua.png).
 
 
 **(HISTORIA 1)**
@@ -81,12 +47,13 @@ Como usuaria quiero poder filtrar a los pokemones por tipo y debilidades para sa
 Como usuaria quiero poder obtener el porcentaje de los pokemones que aparecen en los diferentes tipos de huevo para saber qué huevos eclosionar.
 
 
+**ETAPA 2: ORGANIZACIÓN**
 
-**//ETAPA 2:ORGANIZACIÓN//**
+**POKEMON STORY**
 
-Crear Pokemon story, una plataforma donde el usuario puede visualizar y acceder a una información entendible, potente y amigable. El jugador de Pokemon ingresará al sitio siempre que escriba como usuario y contraseña "LABORATORIA"
+Crear Pokemon story, una plataforma donde el usuario puede visualizar y acceder a una información entendible y amigable. El jugador de Pokemon ingresará al sitio siempre que escriba como usuario y contraseña "LABORATORIA"
 
-**<------¿Quiénes son los usuarios y los objetivos en relación con el producto?----->**
+**¿Quiénes son los usuarios y los objetivos en relación con el producto?**
 
 El público objetivo de **PokemonStory** son jovenes hombres y mujeres desde los **7 a 35 años**, que tienen experiencia jugando.
 
@@ -94,7 +61,7 @@ El público objetivo de **PokemonStory** son jovenes hombres y mujeres desde los
 
 El objetivo principal de PokemonStory es visualizar una información eficiente de modo que dé una respuesta rápida a las peticiones que desean los jugadores.
 
-**<------¿Cómo el producto soluciona los problemas/necesidades de dichos usuarios?----->**
+**¿Cómo el producto soluciona los problemas/necesidades de dichos usuarios?**
 
 Todos los jugadores de Pokemon tienen las ganas de seguir atrapando pokemones y convertirse en un Gran entrenador Pokemon. Esa ansia de seguir, influye en la necesidad de buscar información y obtener los datos más destacados.
 
@@ -102,40 +69,46 @@ El usuario tiene la opción de observar las características más relevantes de 
 
 Por ello se creó **PokemonStory**, una plataforma donde el usuario puede ingresar e informarse de forma sencilla cuando desee.
  
-**<------FLUJOGRAMAS----->**
 
-. imagen( flujograma)
+**FLUJOGRAMA**
 
-**//ETAPA 3: PROTOTIPADO//**
-
-**------BAJA Y ALTA FIDELIDAD CON FUNCIONALIDADES------>**
-
-##Prototipo en papel y lapiz
-
-<img src= "./src/img/vistalogin.jpeg"  width="250" height="270">
-<img src= "./src/img/vistapokemoninactiva.jpeg"  width="250" height="270">
-<img src= "./src/img/vistapokemonesactiva.jpeg"  width="250" height="270">
-<img src= "./src/img/vistaclickpokemon.jpeg"  width="250" height="270">
-
-........Imagenes explicando funcionalidades
+![Flujograma PokemonStory](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/diagramapokemon.png).
 
 
-**//ETAPA 4: PRUEBAS//**
+**ETAPA 3: PROTOTIPADO**
 
-**<------Informes evaluativos y testeos------>**
+**BAJA Y ALTA FIDELIDAD CON FUNCIONALIDADES**
 
+![Vista login](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/vistalogin.jpg).
+
+![Vista opciones](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/vistaopciones.jpg).
+
+![Vista pokemones](https://github.com/almendrasouza/LIM010-data-lovers/blob/master/src/img/vistapokemones.jpg).
+
+**ETAPA 4: PRUEBAS A PÚBLICO ESPECÍFICO**
+
+**Informes evaluativos y testeos**
 
 A)Testeos a Usuarios
 
 B)Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
 
-**//ETAPA 5: DISEÑO//**
+
+**ETAPA 5: DISEÑO**
+
+**Fuentes para diseñar  y aplicar interacción y estilos**
 
 
-**<------Fuentes para diseñar  y aplicar interacción y estilos------>**
 
-**ETAPA 6: LANZAMIENTO(imagen de alta fidelidad)**
+
+
+
+**ETAPA: 6 LANZAMIENTO**
+
+![PokemonStory Alta fidelidad]().
+
+
 
 https://drive.google.com/open?id=1HlPCOdPpBGoWng71CYnYdRV3alDjrFa3
 
